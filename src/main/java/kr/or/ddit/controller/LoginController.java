@@ -12,7 +12,7 @@ import kr.or.ddit.security.CommonController;
 @Controller
 public class LoginController {
 
-	private static final Logger log = LoggerFactory.getLogger(CommonController.class);
+	private static final Logger log = LoggerFactory.getLogger(LoginController.class);
 	
 	//에러가 발생하거나 로그아웃이 발생됐을 때 해당 URI로 요청이 전달되는데
 	//이 때 error정보와 logout 정보를 활용하도록 합니다.

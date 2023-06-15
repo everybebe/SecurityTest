@@ -15,7 +15,7 @@ import org.springframework.security.web.savedrequest.RequestCache;
 
 public class CustomLoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler{
 
-	private static final Logger log = LoggerFactory.getLogger(CommonController.class);
+	private static final Logger log = LoggerFactory.getLogger(CustomLoginSuccessHandler.class);
 	
 	@Override
 	public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
